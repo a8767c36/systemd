@@ -1,0 +1,8 @@
+sql-server:
+  name: SQL server
+  cmdline: ./database/my-sql-server
+http-server:
+  name: HTTP server
+  dependsOn: sql-server
+  cmdline: nodejs ./http-server/main.js
+

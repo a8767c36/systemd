@@ -1,0 +1,28 @@
+{
+  "name": "systemd",
+  "version": "1.0.0",
+  "description": "a Systemd alternative",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a8767c36/systemd.git"
+  },
+  "keywords": [
+    "systemd",
+    "system",
+    "configuration",
+    "setup"
+  ],
+  "author": "a8767c36",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a8767c36/systemd/issues"
+  },
+  "homepage": "https://github.com/a8767c36/systemd#readme",
+  "dependencies": {
+    "yaml": "^1.6.0"
+  }
+}

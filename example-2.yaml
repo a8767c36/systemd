@@ -1,0 +1,15 @@
+a:
+  name: a
+  dependsOn: [b, c]
+  cmdline: a
+b:
+  name: b
+  dependsOn: d
+  cmdline: b
+c:
+  name: c
+  cmdline: c
+d:
+  name: d
+  dependsOn:
+  cmdline: d
