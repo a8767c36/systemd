@@ -14,7 +14,8 @@
     "systemd",
     "system",
     "configuration",
-    "setup"
+    "setup",
+    "alternative"
   ],
   "author": "a8767c36",
   "license": "ISC",
